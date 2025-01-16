@@ -1,6 +1,5 @@
-import { Button } from "@/components/ui/button";
-import Link from "next/link";
-
+import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function Page() {
   return (
@@ -14,16 +13,27 @@ export default function Page() {
               </Link>
             </Button>
             /
-            <Button variant="link" className="text-blue-700 underline" asChild disabled>
+            <Button
+              variant="link"
+              className="text-blue-700 underline"
+              asChild
+              disabled
+            >
               <Link href="/" target="_blank">
                 Twitter
               </Link>
             </Button>
           </div>
-          <p className="text-balance font-medium">I'm Cesar, building things for the web and mobile devices. I like working on open source projects, playing video games, playing beach volleyball, and I also love Avatar. I live in Brazil.</p>
-          <p className="text-balance font-medium">I currently work as a full stack developer at Vila Apps.</p>
+          <p className="text-balance font-medium">
+            I'm Cesar, building things for the web and mobile devices. I like
+            working on open source projects, playing video games, playing beach
+            volleyball, and I also love Avatar. I live in Brazil.
+          </p>
+          <p className="text-balance font-medium">
+            I currently work as a full stack developer at Vila Apps.
+          </p>
         </div>
       </div>
     </main>
-  );
+  )
 }
