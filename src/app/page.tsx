@@ -20,8 +20,8 @@ export default function Page() {
               </Link>
             </Button>
           </div>
-          <p className="text-balance font-medium">I'm Cesar, building things for the web and mobile devices. I like working on open source projects, playing video games and playing beach volleyball.</p>
-          <p className="text-balance font-medium">I'm currently work as a full stack developer at Vila Apps.</p>
+          <p className="text-balance font-medium">I'm Cesar, building things for the web and mobile devices. I like working on open source projects, playing video games, playing beach volleyball, and I also love Avatar. I live in Brazil.</p>
+          <p className="text-balance font-medium">I currently work as a full stack developer at Vila Apps.</p>
         </div>
       </div>
     </main>
