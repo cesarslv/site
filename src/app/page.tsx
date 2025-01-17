@@ -19,7 +19,7 @@ export default function Page() {
               asChild
               disabled
             >
-              <Link href="/" target="_blank">
+              <Link href="/">
                 Twitter
               </Link>
             </Button>
