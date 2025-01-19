@@ -1,0 +1,14 @@
+{
+  "name": "cesarslv.com",
+  "short_name": "sadmn",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "36x36",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
