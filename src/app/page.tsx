@@ -13,15 +13,22 @@ export default function Page() {
               </Link>
             </Button>
             /
+            <Button variant="link" className="text-blue-700 underline" asChild>
+              <Link
+                href="https://www.linkedin.com/in/cesarslv/"
+                target="_blank"
+              >
+                LinkedIn
+              </Link>
+            </Button>
+            /
             <Button
               variant="link"
               className="text-blue-700 underline"
               asChild
               disabled
             >
-              <Link href="/">
-                Twitter
-              </Link>
+              <Link href="/">Twitter</Link>
             </Button>
           </div>
           <p className="text-balance font-medium">
