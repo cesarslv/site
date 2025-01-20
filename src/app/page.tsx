@@ -3,8 +3,8 @@ import Link from "next/link"
 
 export default function Page() {
   return (
-    <main className="flex flex-col flex-1">
-      <div className="w-full flex-1 flex justify-center items-center p-8">
+    <main className="flex-1 flex flex-col">
+      <div className="flex-1 w-full flex justify-center items-center p-8 min-h-svh">
         <div className="flex flex-col gap-8 w-[24rem] text-center">
           <div className="flex items-center justify-center gap-2 font-medium">
             <Button variant="link" className="text-blue-700 underline" asChild>

@@ -44,9 +44,6 @@ export const metadata: Metadata = {
     images: ["https://cesarslv.com/opengraph-image.png"],
     creator: "@sadmann17",
   },
-  icons: {
-    icon: "/icon.png",
-  },
   manifest: absoluteUrl("/site.webmanifest"),
 }
 
